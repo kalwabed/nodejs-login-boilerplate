@@ -1,0 +1,201 @@
+repo_name: kalwabed/nodejs-login-boilerplate
+report_id: dd5d85417c519a7ccfb5eea4ab983bf0
+repo_type: Public
+timestamp: '2023-11-10T12:52:40+00:00'
+requested_by: kalwabed
+provider: github
+branch: master
+detected_tools_count: 13
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: kaliwa
+  last_updated_on: 2020-04-19 16:32:07.000000000 Z
+- name: Mongoose
+  description: MongoDB object modeling designed to work in an asynchronous environment
+  website_url: http://mongoosejs.com/
+  version: 5.9.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Document Mapper (ODM)
+  image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: kaliwa
+  last_updated_on: 2020-04-19 16:32:07.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 2.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: kaliwa
+  last_updated_on: 2020-04-19 16:32:07.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: kaliwa
+  last_updated_on: 2020-04-19 16:32:07.000000000 Z
+- name: bcryptjs
+  description: Optimized bcrypt in plain JavaScript with zero dependencies
+  package_url: https://www.npmjs.com/bcryptjs
+  version: 2.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16857/default_627f05e6a07ce29fc9f119417270f38e8aa5c5e2.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: kaliwa
+  last_updated_on: 2020-04-19 16:32:07.000000000 Z
+- name: connect-flash
+  description: Flash message middleware for Connect
+  package_url: https://www.npmjs.com/connect-flash
+  version: 0.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17693/default_148ef251371a47f69a7acad9f3b25e2ec2ee4aa4.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: kaliwa
+  last_updated_on: 2020-04-19 16:32:07.000000000 Z
+- name: ejs
+  description: Embedded JavaScript templates
+  package_url: https://www.npmjs.com/ejs
+  version: 3.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16045/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: kaliwa
+  last_updated_on: 2020-04-19 16:32:07.000000000 Z
+  vulnerabilities:
+  - name: ejs template injection vulnerability
+    cve_id: CVE-2022-29078
+    cve_url: https://github.com/advisories/GHSA-phwq-j96m-2c2q
+    detected_date: Apr 28
+    severity: critical
+    first_patched: 3.1.7
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: kaliwa
+  last_updated_on: 2020-04-19 16:32:07.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: express-session
+  description: Simple session middleware for Express
+  package_url: https://www.npmjs.com/express-session
+  version: 1.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16239/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: kaliwa
+  last_updated_on: 2020-04-19 16:32:07.000000000 Z
+- name: passport
+  description: Simple, unobtrusive authentication for Node.js
+  package_url: https://www.npmjs.com/passport
+  version: 0.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16304/default_1baba0e6ece19a38adfb211f686c83c781ff703a.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: kaliwa
+  last_updated_on: 2020-04-19 16:32:07.000000000 Z
+  vulnerabilities:
+  - name: Passport vulnerable to session regeneration when a users logs in or out
+    cve_id: CVE-2022-25896
+    cve_url: https://github.com/advisories/GHSA-v923-w3x8-wh69
+    detected_date: Jul 7
+    severity: moderate
+    first_patched: 0.6.0
+- name: passport-local
+  description: Local username and password authentication strategy for Passport
+  package_url: https://www.npmjs.com/passport-local
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16747/default_adce7cef6d131ffc31466624541462e4db9534d4.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: kaliwa
+  last_updated_on: 2020-04-19 16:32:07.000000000 Z
